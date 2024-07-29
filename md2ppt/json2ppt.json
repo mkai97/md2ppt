@@ -1,0 +1,118 @@
+
+"presentation": {
+    "title": "WEB前端开发技能",
+    "image": {
+        "path": "./md2ppt/WechatIMG35998.jpg",
+        "size": {
+            "width": 10,
+            "height": 7.5
+        }
+    },
+    "slides": [
+        {
+            "layout": 1,
+            "title": "WEB前端开发基础知识",
+            "content": [
+                "WEB前端开发是构建网站和应用的前端界面的关键技能。它包括HTML、CSS和JavaScript三种核心技术。HTML定义网页的结构，CSS负责网页的样式和布局，而JavaScript则提供网页的交互性。本文将详细介绍这些基础知识以及前端开发的一些重要概念。"
+            ],
+            "image": {
+                "path": "./md2ppt/WechatIMG35998.jpg",
+                "size": {
+                    "width": 10,
+                    "height": 7.5
+                }
+            }
+        },
+        {
+            "layout": 1,
+            "title": "HTML",
+            "content": [
+                "HTML是网页结构的基础语言，通过使用语义化标签来提高网页的可访问性和搜索引擎优化（SEO）。HTML还负责处理表单，收集用户输入的数据，以及嵌入多媒体内容，如图片和视频。"
+            ],
+            "image": {
+                "path": "./md2ppt/bg02.jpg",
+                "size": {
+                    "width": 10,
+                    "height": 7.5
+                }
+            }
+        },
+        {
+            "layout": 1,
+            "title": "CSS",
+            "content": [
+                "CSS是网页样式和布局的描述语言。通过选择器来选取页面元素，利用盒模型来构建元素的布局，使用定位来确定元素在页面中的位置。CSS的响应式设计功能允许网页适应不同设备的屏幕。"
+            ],
+            "image": {
+                "path": "./md2ppt/bg02.jpg",
+                "size": {
+                    "width": 10,
+                    "height": 7.5
+                }
+            }
+        },
+        {
+            "layout": 1,
+            "title": "JavaScript",
+            "content": [
+                "JavaScript是网页交互的脚本语言，它支持变量和数据类型的定义，函数的编写以实现代码复用和模块化，事件处理来响应用户交互，以及DOM操作来修改文档对象模型。"
+            ],
+            "image": {
+                "path": "./md2ppt/bg02.jpg",
+                "size": {
+                    "width": 10,
+                    "height": 7.5
+                }
+            }
+        },
+        {
+            "layout": 1,
+            "title": "前端框架和库",
+            "content": [
+                "随着WEB开发的发展，出现了多种前端框架和库，如React、Angular、Vue.js和jQuery。这些工具简化了开发流程，提高了开发效率，并为构建复杂的前端应用提供了强大的支持。"
+            ],
+            "image": {
+                "path": "./md2ppt/bg02.jpg",
+                "size": {
+                    "width": 10,
+                    "height": 7.5
+                }
+            }
+        },
+        {
+            "layout": 1,
+            "title": "React",
+            "content": [
+                "React是由Facebook维护的前端库，它使用JSX语法扩展来编写组件化的代码，实现状态管理和生命周期控制，从而构建高效的用户界面。"
+            ],
+            "image": {
+                "path": "./md2ppt/bg02.jpg",
+                "size": {
+                    "width": 10,
+                    "height": 7.5
+                }
+            }
+        },
+        {
+            "layout": 1,
+            "title": "Angular",
+            "content": [
+                "Angular是由Google维护的前端框架，它通过组件来构建用户界面，使用服务来共享数据和逻辑，路由来控制页面导航，以及表单处理来实现数据收集和验证。"
+            ],
+            "image": {
+                "path": "./md2ppt/bg02.jpg",
+                "size": {
+                    "width": 10,
+                    "height": 7.5
+                }
+            }
+        },
+        {
+            "layout": 1,
+            "title": "Vue.js",
+            "content": [
+                "Vue.js是一个轻量级的前端框架，它通过模板语法和响应式数据绑定来实现声明式渲染，组件系统来构建大型应用，以及指令来实现内置的DOM操作。"
+            ]
+        }
+    ]
+}
