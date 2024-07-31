@@ -136,7 +136,8 @@ def create_ppt(presentation: dict,pptInfo:dict):
     file_name = presentation["title"]+"-"+generate_random_string()+".pptx"
     ppt_path = os.path.join(current_dir, '..', 'pptSource', 'ppt', file_name)
     prs.save(ppt_path)
-    return {"message": "success",
+    return {"code":0,
+        "message": "success",
             "file_path": service_root() +"/pptSource/ppt/"+ file_name}
 
 # 定义一个函数来生成 6 位随机字符的字符串
@@ -148,7 +149,7 @@ def generate_random_string(length=6):
     return random_string
 
 def service_root():
-    host = "127.0.0.1"  # 默认是 '127.0.0.1'
+    host = "192.168.1.111"  # 默认是 '127.0.0.1'
     port = "8000"  # 默认是 8000
     return  "http://"+ f"{host}:{port}"
 
